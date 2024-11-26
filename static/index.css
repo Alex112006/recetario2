@@ -1,0 +1,56 @@
+body {
+    background-image: url('/static/images/fondo.jpg'); 
+    background-size: cover; /* Cubre toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    font-family: Arial, sans-serif;
+    display: flex; /* Flexbox para centrar el contenido */
+    flex-direction: column; /* Coloca el contenido en columna */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    height: 100vh; /* Altura de toda la ventana */
+    color: white; /* Color del texto */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilo del título */
+h1 {
+    margin-bottom: 20px; /* Espaciado debajo del título */
+    font-size: 2.5rem;
+}
+
+/* Contenedor de los botones */
+.buttons-container {
+    display: flex; /* Flexbox para alinear horizontalmente */
+    justify-content: center; /* Centra los botones */
+    gap: 20px; /* Espaciado entre los botones */
+    margin-top: 10px;
+}
+
+/* Diseño de los botones */
+a {
+    display: inline-block;
+    padding: 12px 25px; /* Tamaño del botón */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px; /* Bordes redondeados */
+    background: linear-gradient(45deg, #ff5722, #ff9800); /* Gradiente atractivo */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Sombra para resaltar */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animaciones suaves */
+}
+
+/* Efecto hover para los botones */
+a:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8); /* Resalta más */
+    cursor: pointer;
+}
+
+/* Imagen adicional en el centro */
+.center-image {
+    margin-top: 20px; /* Espaciado superior */
+    width: 50%; /* Tamaño ajustado de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Sombra */
+}
